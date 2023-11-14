@@ -1,3 +1,6 @@
+/// admin info {"ID":"1","name":"admins","email":"admin@admin.com","password":"0000000000"}
+
+
 function passwordCheck(pass) {
     let msg;
     if (isNaN(pass) || pass < 0 || pass.length<9) {
